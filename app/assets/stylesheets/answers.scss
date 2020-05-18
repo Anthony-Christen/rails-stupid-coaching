@@ -1,0 +1,48 @@
+// Place all the styles related to the Answers controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.answers-container {
+  width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  height: 75px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.card-content {
+  margin-left: 15px;
+}
+
+
+#grey {
+  background-color: #DDDDDD;
+  height: 100%;
+  width: 7px;
+}
+
+h1 {
+  font-family: sans-serif;
+  margin: 40px 0;
+}
+
+p {
+  font-family: sans-serif;
+  color: #5C5F5A;
+}
+
+a {
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+.yellow {
+  background-color: #FEFEE1;
+}
